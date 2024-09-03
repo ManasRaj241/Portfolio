@@ -20,13 +20,13 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-2 text-green-500">About</h1>
         <p>
-          Hello, I'm Manas, a passionate Software developer Having 2 Years of
-          experience in Software development, my aim is to find an exciting and
-          challenging entry-level position in the IT Industry alongside a
-          company who will continuously motivate and drive me to do my best and
-          improve on my skills and abilities in order to be able to assist the
-          company in achieving its mission and goals. I am an excellent team
-          worker.
+          Hello, I'm Manas Ranjan Satapathy, a passionate Software developer
+          Having 2 Years of experience in Software development, my aim is to
+          find an exciting and challenging entry-level position in the IT
+          Industry alongside a company who will continuously motivate and drive
+          me to do my best and improve on my skills and abilities in order to be
+          able to assist the company in achieving its mission and goals. I am an
+          excellent team worker.
         </p>
         <br />
         <h1 className="text-green-600 font-semibold text-xl">Education</h1>
