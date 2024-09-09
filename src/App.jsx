@@ -6,6 +6,7 @@ import PortFolio from "./components/PortFolio";
 import Experiance from "./components/Experiance";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import CodingProfiles from "./components/CodingProfiles";
 import { Toaster } from "react-hot-toast";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Home />
         <About />
         <PortFolio />
+        <CodingProfiles />
         <Experiance />
         <Contact />
         <Footer />
