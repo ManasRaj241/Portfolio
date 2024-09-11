@@ -16,7 +16,7 @@ function Navbar() {
     },
     {
       id: 3,
-      text: "Portfolio",
+      text: "Projects",
     },
     {
       id: 4,
@@ -24,6 +24,14 @@ function Navbar() {
     },
     {
       id: 5,
+      text: "Coding Profiles",
+    },
+    {
+      id: 6,
+      text: "Resume",
+    },
+    {
+      id: 7,
       text: "Contact",
     },
   ];

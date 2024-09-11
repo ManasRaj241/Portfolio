@@ -86,7 +86,10 @@ const CodingProfiles = () => {
   };
 
   return (
-    <div className="max-w-screen-2xl mx-auto px-4 md:px-20 py-10">
+    <div
+      name="Coding Profiles"
+      className="max-w-screen-2xl mx-auto px-4 md:px-20 py-10"
+    >
       <h1 className="text-4xl font-bold text-center text-green-500 mb-10">
         Coding Profiles
       </h1>
@@ -97,8 +100,10 @@ const CodingProfiles = () => {
           <h2 className="text-3xl font-bold text-black mb-4 text-center">
             LeetCode
           </h2>
-          <p className="text-xl text-gray-700 mb-2">
-            Total Solved: {leetcodeData.totalSolved}
+          <hr />
+          <p className="text-xl text-gray-700 mb-2 mt-5">
+            <b>Total Problems Solved : </b>
+            {leetcodeData.totalSolved}
           </p>
           <div className="flex justify-center">
             <Pie data={leetcodePieData} width={200} height={200} />
@@ -107,10 +112,10 @@ const CodingProfiles = () => {
             <b>Global Ranking: </b> {leetcodeData.ranking}
           </p>
           <div className="px-6 py-4 space-x-3 flex justify-center">
-            <button className="bg-blue-500 hover:bg-slate-700 text-black font-bold px-4 py-2 rounded">
+            <button className="text-gray-800 font-semibold py-2 px-6 border border-gray-300 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:bg-black hover:text-white hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50">
               <a href={leetcodeProfile}>Leetcode Profile</a>
             </button>
-            <button className="bg-green-500 hover:bg-orange-700 text-black font-bold px-4 py-2 rounded">
+            <button className="text-gray-800 font-semibold py-2 px-6 border border-gray-300 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:bg-black hover:text-white hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50">
               <a href={githubURL}>Github</a>
             </button>
           </div>
@@ -121,8 +126,10 @@ const CodingProfiles = () => {
           <h2 className="text-3xl font-bold text-black mb-4 text-center">
             GeeksForGeeks
           </h2>
-          <p className="text-xl text-gray-700 mb-2">
-            Total Solved: {gfgData.totalProblemsSolved}
+          <hr />
+          <p className="text-xl text-gray-700 mb-2 mt-5">
+            <b>Total Problems Solved : </b>
+            {gfgData.totalProblemsSolved}
           </p>
           <div className="flex justify-center">
             <Pie data={gfgPieData} width={200} height={200} />
@@ -136,10 +143,10 @@ const CodingProfiles = () => {
             </div>
           </div>
           <div className="px-6 py-4 space-x-3 flex justify-center">
-            <button className="bg-blue-500 hover:bg-slate-700 text-black font-bold px-4 py-2 rounded">
+            <button className="text-gray-800 font-semibold py-2 px-6 border border-gray-300 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:bg-black hover:text-white hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50">
               <a href={gfgProfile}>GeeksForGeeks Profile</a>
             </button>
-            <button className="bg-green-500 hover:bg-orange-700 text-black font-bold px-4 py-2 rounded">
+            <button className="text-gray-800 font-semibold py-2 px-6 border border-gray-300 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:bg-black hover:text-white hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-black focus:ring-opacity-50">
               <a href={githubURL}>Github</a>
             </button>
           </div>

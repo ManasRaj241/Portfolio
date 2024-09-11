@@ -2,7 +2,7 @@ import React from "react";
 import java from "../../public/java.png";
 import python from "../../public/python.webp";
 import springBoot from "../../public/springBoot.jpg";
-function PortFolio() {
+function Projects() {
   const cardItem = [
     {
       id: 1,
@@ -47,7 +47,7 @@ function PortFolio() {
   ];
   return (
     <div
-      name="Portfolio"
+      name="Projects"
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
     >
       <div>
@@ -86,4 +86,4 @@ function PortFolio() {
   );
 }
 
-export default PortFolio;
+export default Projects;

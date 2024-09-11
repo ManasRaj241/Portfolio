@@ -2,12 +2,13 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-import PortFolio from "./components/PortFolio";
 import Experiance from "./components/Experiance";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import CodingProfiles from "./components/CodingProfiles";
 import { Toaster } from "react-hot-toast";
+import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
         <Navbar />
         <Home />
         <About />
-        <PortFolio />
+        <Projects />
         <CodingProfiles />
+        <Resume />
         <Experiance />
         <Contact />
         <Footer />
