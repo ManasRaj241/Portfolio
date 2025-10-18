@@ -11,7 +11,7 @@ function Experience() {
       company: "Amiti Software Technologies Private Limited",
       location: "Bangalore",
       duration: "July 2023 – Present",
-      years: "1.5+ Years",
+      years: "2.3+ Years",
       type: "Full-time",
       highlights: [
         "Delivered microservices-based vehicle remarketing solutions for global clients: GMF, VW, BMW, Honda, Hyundai, Chevrolet, Porsche, Ford, and Toyota",
@@ -119,7 +119,7 @@ function Experience() {
             Work Experience
           </span>
         </h1>
-        <p className="text-slate-400 max-w-2xl">
+        <p className="max-w-2xl">
           3+ years of hands-on experience building scalable backend systems and
           microservices architectures for enterprise clients worldwide.
         </p>
