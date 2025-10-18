@@ -26,7 +26,7 @@ function Projects() {
           "Python",
           "IAM",
         ],
-        git: "https://github.com/ManasRaj241/EventAnnouncementSystem",
+        git: "https://github.com/ManasRaj241/AWS-Event-Announcement-System",
         category: "aws",
         highlights: [
           "Completely FREE - runs within AWS free tier",
@@ -73,7 +73,7 @@ function Projects() {
           "SQL",
           "Tailwind CSS",
         ],
-        git: "https://github.com/ManasRaj241/UsedCarSalesPortal",
+        git: "https://github.com/ManasRaj241/UsedCarSalesPortal-Microservice-java-",
         category: "development",
         highlights: [
           "9 independently deployable microservices",
