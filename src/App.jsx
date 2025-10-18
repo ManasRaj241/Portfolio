@@ -3,12 +3,12 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Experiance from "./components/Experiance";
-import Footer from "./components/Footer";
-import Contact from "./components/Contact";
-import CodingProfiles from "./components/CodingProfiles";
-import { Toaster } from "react-hot-toast";
 import Projects from "./components/Projects";
+import CodingProfiles from "./components/CodingProfiles";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -17,10 +17,10 @@ function App() {
         <Navbar />
         <Home />
         <About />
+        <Experiance />
         <Projects />
         <CodingProfiles />
         <Resume />
-        <Experiance />
         <Contact />
         <Footer />
       </div>
