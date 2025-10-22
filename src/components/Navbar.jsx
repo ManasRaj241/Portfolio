@@ -19,24 +19,26 @@ function Navbar() {
 
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 top-0 left-0 right-0 z-50 bg-gradient-to-b from-slate-900 to-slate-800/80 backdrop-blur-md border-b border-slate-700/50 shadow-lg">
+      <div className="max-w-screen-2xl container mx-auto px-3 md:px-20 h-16 top-0 left-0 right-0 z-50 bg-gradient-to-b from-slate-900 to-slate-800/80 backdrop-blur-md border-b border-slate-700/50 shadow-lg">
         <div className="flex justify-between items-center h-16">
           {/* Logo & Brand */}
-          <div className="flex space-x-3 items-center group">
-            <div className="relative">
+          <div className="flex space-x-2 md:space-x-3 items-center group">
+            <div className="relative flex-shrink-0">
               <div className="absolute inset-0 bg-gradient-to-r from-green-500 to-blue-500 rounded-full blur opacity-0 group-hover:opacity-100 transition duration-300"></div>
               <img
                 src={pic}
-                className="h-12 w-12 rounded-full relative border-2 border-green-500/50 group-hover:border-green-400 transition-colors"
+                className="h-10 w-10 md:h-12 md:w-12 rounded-full relative border-2 border-green-500/50 group-hover:border-green-400 transition-colors"
                 alt="Logo"
               />
             </div>
-            <div className="flex flex-col">
-              <h1 className="font-bold text-lg cursor-pointer group-hover:text-green-400 transition-colors">
+            <div className="flex flex-col overflow-hidden">
+              <h1 className="font-bold text-sm md:text-lg cursor-pointer group-hover:text-green-400 transition-colors truncate">
                 Manas Ranjan Satapathy
-                <span className="text-green-500 text-2xl">|</span>
+                <span className="text-green-500 text-xl md:text-2xl ml-0.5">
+                  |
+                </span>
               </h1>
-              <p className="text-xs text-green-400 font-semibold">
+              <p className="text-[10px] md:text-xs text-green-400 font-semibold">
                 Software Developer
               </p>
             </div>
@@ -79,7 +81,7 @@ function Navbar() {
 
         {/* Mobile Navigation Menu */}
         {menu && (
-          <div className="md:hidden fixed top-16 left-0 right-0 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 border-b border-slate-700/50 shadow-xl">
+          <div className="md:hidden fixed top-16 left-0 right-0 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 border-b border-slate-700/50 shadow-xl z-50">
             <ul className="flex flex-col space-y-2 p-6">
               {navItems.map(({ id, text }) => (
                 <li key={id} className="group">
